@@ -1,0 +1,6 @@
+succes:
+  last: "<b>Weather forecast</b> >w<"
+
+err:
+  no_city: "<b>Specify ur city</b> OwO"
+  unknown: "<b>Unknown error!</b> 0_o"
