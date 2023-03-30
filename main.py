@@ -7,7 +7,6 @@ from pyrogram.types import Message
 class WeatherMod(BaseModule):
     @command("weather")
     async def wt_cmd(self, _, message: Message):
-        weatherl = self.S["succes"]["last"]
         nocity = self.S["err"]["no_city"]
         unknownerr =self.S["err"]["unknown"]
 
